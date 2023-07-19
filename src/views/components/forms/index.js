@@ -8,17 +8,17 @@ class Forms extends Component {
                 <Form>
                     <Form.Group controlId='formName'>
                         <Form.Label>Name</Form.Label>
-                        <Form.Control type='text' placeholder='Digite seu nome'/>
+                        <Form.Control type='text' placeholder='Digite seu nome' />
                     </Form.Group>
                     <Form.Group controlId='formName'>
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type='email' placeholder='name@example.com'/>
+                        <Form.Control type='email' placeholder='name@example.com' />
                     </Form.Group>
                     <Form.Group controlId='formName'>
                         <Form.Label>Obs</Form.Label>
-                        <Form.Control as="textarea" rows={3}/>
+                        <Form.Control as="textarea" rows={3} />
                     </Form.Group>
-                </Form>                
+                </Form>
             </Container>
         );
     }
